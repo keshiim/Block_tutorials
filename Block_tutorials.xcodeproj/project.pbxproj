@@ -10,6 +10,7 @@
 		84148F27183DA21500A8729B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84148F26183DA21500A8729B /* Foundation.framework */; };
 		84148F2A183DA21500A8729B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84148F29183DA21500A8729B /* main.m */; };
 		84148F2E183DA21500A8729B /* Block_tutorials.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 84148F2D183DA21500A8729B /* Block_tutorials.1 */; };
+		84148F36183DAC7900A8729B /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 84148F35183DAC7900A8729B /* Car.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		84148F29183DA21500A8729B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84148F2C183DA21500A8729B /* Block_tutorials-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Block_tutorials-Prefix.pch"; sourceTree = "<group>"; };
 		84148F2D183DA21500A8729B /* Block_tutorials.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Block_tutorials.1; sourceTree = "<group>"; };
+		84148F34183DAC7900A8729B /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		84148F35183DAC7900A8729B /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				84148F29183DA21500A8729B /* main.m */,
+				84148F34183DAC7900A8729B /* Car.h */,
+				84148F35183DAC7900A8729B /* Car.m */,
 				84148F2D183DA21500A8729B /* Block_tutorials.1 */,
 				84148F2B183DA21500A8729B /* Supporting Files */,
 			);
@@ -139,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84148F36183DAC7900A8729B /* Car.m in Sources */,
 				84148F2A183DA21500A8729B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
